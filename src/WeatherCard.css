@@ -1,0 +1,9 @@
+.weather-card {
+  background: linear-gradient(
+    90deg,
+    rgb(197, 243, 250) 6%,
+    rgb(24, 102, 128) 100%
+  );
+  padding: 30px;
+  border-radius: 20px;
+}
