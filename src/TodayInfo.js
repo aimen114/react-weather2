@@ -15,10 +15,7 @@ export default function TodayInfo() {
       <h1>
         <span>{weather.cityName}</span>
         <span>
-          <i
-            onclick="toggleSearchBarVisibility()"
-            className="fa-solid fa-caret-down searchIcon"
-          ></i>
+          <i className="fa-solid fa-caret-down searchIcon"></i>
         </span>
         <span>
           <i className="fa-solid fa-location-dot locater" id="locater"></i>
@@ -28,11 +25,11 @@ export default function TodayInfo() {
           <form className="searchForm" id="searchForm">
             <input
               type="text"
-              class="form-control searchInput"
+              className="form-control searchInput"
               placeholder="Search city"
               aria-describedby="button-addon2"
               id="cityInput"
-              autocomplete="off"
+              autoComplete="off"
             />
             <button
               className="btn btn-outline-secondary searchButton"
@@ -47,12 +44,11 @@ export default function TodayInfo() {
       <img
         src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
         id="nowIcon"
+        alt=" "
       />
       <span className="tempOfTheDay">{weather.tempOfTheDay}</span>
       <span className="tempUnits">
-        <span className="c-f-btn" class="active">
-          ℃{" "}
-        </span>
+        <span className="c-f-btn active">℃ </span>
       </span>
       <br />
       <span>Last updated, </span>
