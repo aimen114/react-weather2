@@ -12,7 +12,7 @@ export default function Credentials() {
       </a>
       by Aimen Zafar. Hosted on
       <a
-        href="https://subtle-faloodeh-3015a7.netlify.app/"
+        href="https://majestic-liger-a5910f.netlify.app"
         target="_blank"
         rel="noreferrer"
       >
